@@ -1,0 +1,11 @@
+.Logo {
+	text-align: center;
+}
+
+body {
+	background-color: grey;
+}
+
+.Logo img {
+	width: 35%;
+}
