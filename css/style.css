@@ -1,11 +1,78 @@
-.Logo {
-	text-align: center;
-}
-
-body {
-	background-color: grey;
-}
-
 .Logo img {
-	width: 35%;
+	width: 70%;
+}
+
+.navbar-color {
+	background-color: var(--main-bg-color);
+}
+
+.Contact {
+	background-color: var(--second-bg-color);
+	margin-bottom: 20px;
+	border-radius: 25px;
+}
+.Contact h2 {
+	margin-bottom: 0 !important;
+}
+
+.Services h5 {
+	color: var(--second-bg-color);
+	margin-bottom: 0 !important;
+}
+
+.PhoneNumber {
+	margin-top: 20px;
+	color: var(--main-bg-color);
+}
+
+.PhoneNumber h1 {
+	font-weight: bold !important;
+	margin-bottom: 20px;
+}
+
+.Address h6 {
+	color: var(--second-bg-color);
+	margin-bottom: 0 !important;
+}
+
+h1 a {
+	color: var(--main-bg-color);
+}
+
+h1 a:hover {
+	color: var(--second-bg-color);
+}
+
+h6 a {
+	color: var(--main-bg-color);
+}
+
+h6 a:hover {
+	color: var(--second-bg-color);
+}
+
+hr.line {
+	border: 5px solid var(--second-bg-color);
+	border-radius: 25px;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+:root {
+	--main-bg-color: #2057ac;
+	--second-bg-color: #65a1d2;
+}
+
+.borderDark {
+	border-color: var(--main-bg-color) !important;
+}
+
+.borderLight {
+	border-color: var(--second-bg-color) !important;
 }
