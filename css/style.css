@@ -69,13 +69,13 @@
   text-align: center;
 }
 
-.imgContainer:hover .image {
+/* .imgContainer:hover .image {
   opacity: 0.3;
 }
 
 .imgContainer:hover .middle {
   opacity: 1;
-}
+} */
 
 .hoverText {
   color: white;
