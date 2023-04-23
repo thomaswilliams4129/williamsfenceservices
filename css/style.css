@@ -1,50 +1,63 @@
+.masthead {
+  background-image: url("../assests/main.jpeg");
+  height: 100vh;
+  min-height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .Logo img {
+  width: 50%;
+}
+
+.Licensed-Insured {
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 20vh;
+  margin-bottom: 20px;
+  border-radius: 20px;
   width: 60%;
 }
 
-.activeUnderLine {
-  text-decoration: underline;
-}
-
-.nav-item:hover {
-  text-decoration: underline;
-}
-
-.Info {
-  background-color: var(--second-bg-color);
-  margin-bottom: 20px;
-  border-radius: 25px;
-}
 .Info h2 {
   margin-bottom: 0 !important;
 }
 
-.Services h5 {
-  color: var(--second-bg-color);
-  margin-bottom: 0 !important;
+.Contact {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
-.Contact li {
-  display: block;
+#aboutImg {
+  padding: 0;
 }
 
-.number {
-  color: var(--main-bg-color);
+#description {
+  margin: auto;
+  margin-top: 5vh;
+  vertical-align: middle;
 }
 
-.number:hover {
-  color: var(--second-bg-color);
+#about {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
-.email {
-  color: var(--second-bg-color);
+#About {
+  color: white;
+  background-color: rgb(93, 0, 0);
 }
-
-.Address h6 {
-  color: #808080;
+#aboutButtons {
+  margin-bottom: 10px;
 }
-
-.imgContainer {
+#services {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+#financing {
+  margin-top: 10vh;
+}
+.imgContainerServices {
   position: relative;
   width: 50%;
 }
@@ -56,6 +69,10 @@
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+}
+
+.qrCode {
+  width: 70%;
 }
 
 .middle {
@@ -86,15 +103,19 @@
 }
 
 .caption {
-  background-color: var(--main-bg-color);
+  background-color: rgb(93, 0, 0);
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
 hr.line {
-  border: 2px solid #d4d4d4;
+  border: 2px solid black;
   border-radius: 25px;
+}
+
+#facebook {
+  margin-top: 3vh;
 }
 
 .mainColor {
