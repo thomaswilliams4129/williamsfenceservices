@@ -1,4 +1,4 @@
-.masthead {
+#masthead {
   background-image: url("../assests/main.jpeg");
   height: 100vh;
   min-height: 100px;
@@ -7,11 +7,11 @@
   background-repeat: no-repeat;
 }
 
-.Logo img {
+#Logo img {
   width: 50%;
 }
 
-.Licensed-Insured {
+#Licensed-Insured {
   background: rgba(0, 0, 0, 0.7);
   margin-top: 20vh;
   margin-bottom: 20px;
@@ -38,31 +38,24 @@
   vertical-align: middle;
 }
 
-#about {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
-
 #About {
   color: white;
   background-color: rgb(93, 0, 0);
 }
-#aboutButtons {
+#AboutButtons {
   margin-bottom: 10px;
 }
-#services {
+
+.Margin {
   margin-top: 10vh;
-  margin-bottom: 20vh;
-}
-#financing {
-  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 .imgContainerServices {
   position: relative;
   width: 50%;
 }
 
-.image {
+.ImageServices {
   opacity: 1;
   display: block;
   width: 100%;
@@ -71,47 +64,15 @@
   backface-visibility: hidden;
 }
 
-.qrCode {
+#QrCode {
   width: 70%;
 }
 
-.middle {
-  transition: 0.5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* .imgContainer:hover .image {
-  opacity: 0.3;
-}
-
-.imgContainer:hover .middle {
-  opacity: 1;
-} */
-
-.hoverText {
-  color: white;
-  background-color: var(--second-bg-color);
-  border-radius: 25px;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.caption {
+.Caption {
   background-color: rgb(93, 0, 0);
   color: white;
   font-size: 16px;
   padding: 16px 32px;
-}
-
-hr.line {
-  border: 2px solid black;
-  border-radius: 25px;
 }
 
 #facebook {
@@ -136,10 +97,6 @@ hr.line {
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-
-.facebookLink {
-  margin-top: 20px;
 }
 
 :root {

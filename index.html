@@ -31,10 +31,8 @@
 </head>
 
 <body>
-
-
     <!-- Full Page Image Header with Vertically Centered Content -->
-    <header class="masthead">
+    <header id="masthead">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -61,31 +59,29 @@
                         </li>
                     </ul>
                     <span class="navbar-text number ms-auto">
-
                         <a class="text-decoration-none" href="tel:+13865900201">(386) 590-0201</a>
-
                     </span>
                 </div>
             </div>
         </nav>
 
-
+        <!-- Logo, Licensed & Insured, Contact Buttons -->
         <div class="container h-100">
             <div class="row h-100 align-items-st">
                 <div class="col-12 text-center">
                     <!-- Logo -->
-                    <div class="container-fluid Logo">
+                    <div class="container-fluid" id="Logo">
                         <img src="assests/WilliamsFenceService_Logo.png" alt="..." class="mx-auto d-block">
                     </div>
                     <!-- Licensed & Insured -->
-                    <div class="container Licensed-Insured">
+                    <div class="container" id="Licensed-Insured">
                         <div class="container-fluid">
                             <h2 style="color: white">Licensed & Insured</h2>
                             <h6 style="color: white;">Contact us today for a quote</h6>
                         </div>
                     </div>
                     <!-- Contact Buttons -->
-                    <div class="Contact" id="aboutButtons">
+                    <div id="AboutButtons">
                         <a role="button" href="mailto:joeywilliams@williamsfenceservices.com" class=" btn btn-light btn-lg">Email</a>
                         <a role="button" href="tel:+13865900201" class="btn btn-light btn-lg">Phone</a>
                     </div>
@@ -94,9 +90,9 @@
         </div>
     </header>
 
-    </div>
 
-    <div class="container-fluid" id="about">
+    <!-- About Williams Fence Services -->
+    <div class="container-fluid Margin">
         <h1 class="text-uppercase">About</h1>
         <div class="row" id="About">
             <div class="col-md-6" id="aboutImg">
@@ -115,43 +111,43 @@
         </div>
     </div>
 
-
-    <div class="container-fluid animated fadeIn" id="services">
+    <!-- List of services -->
+    <div class="container-fluid animated fadeIn Margin">
         <h1 class="text-uppercase">Services</h1>
         <div class="row rgx-4 gy-4">
             <div class="col-lg imgContainerServices">
-                <img src="assests/grid/privaceFence.jpeg" class="img image" alt="Privacy fences">
+                <img src="assests/grid/privaceFence.jpeg" class="img ImageServices" alt="Privacy fences">
                 <!-- <div class="middle">
                     <div class="hoverText">Click for more images!</div>
                 </div> -->
-                <div class="caption" align="center">
+                <div class="Caption" align="center">
                     Privacy
                 </div>
             </div>
             <div class="col-lg imgContainerServices">
-                <img src="assests/grid/chainLinkFence.jpeg" class="img image" alt="Chain link fences">
+                <img src="assests/grid/chainLinkFence.jpeg" class="img ImageServices" alt="Chain link fences">
                 <!-- <div class="middle">
                     <div class="hoverText">Click for more images!</div>
                 </div> -->
-                <div class="caption" align="center">
+                <div class="Caption" align="center">
                     Chain-link
                 </div>
             </div>
             <div class="col-lg imgContainerServices">
-                <img src="assests/grid/barbWireFence.jpeg" class="img image" alt="Property fences">
+                <img src="assests/grid/barbWireFence.jpeg" class="img ImageServices" alt="Property fences">
                 <!-- <div class="middle">
                     <div class="hoverText">Click for more images!</div>
                 </div> -->
-                <div class="caption" align="center">
+                <div class="Caption" align="center">
                     Property
                 </div>
             </div>
             <div class="col-lg imgContainerServices">
-                <img src="assests/grid/repairFence.jpeg" class="img image" alt="Repair Services">
+                <img src="assests/grid/repairFence.jpeg" class="img ImageServices" alt="Repair Services">
                 <!-- <div class="middle">
                     <div class="hoverText">Click for more images!</div>
                 </div> -->
-                <div class="caption" align="center">
+                <div class="Caption" align="center">
                     Repair Services
                 </div>
             </div>
@@ -159,7 +155,7 @@
     </div>
 
 
-    <!-- Picture slide -->
+    <!-- Picture slides -->
     <div class="container-fluid animated fadeInUpBig" id="gallery">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -208,7 +204,8 @@
         </div>
     </div>
 
-    <div class="container-fluid text-center" id="financing">
+    <!-- Financing QR Code -->
+    <div class="container-fluid text-center Margin">
         <div class="row align-items-center">
             <div class="col">
                 <h1>Financing Available</h1>
@@ -216,12 +213,12 @@
                 <a role="button" class="btn btn-dark" href="https://launchcumerchant.merchantlinq.com/QWVCdVRDb1FNaE43Z1RYT0lYUnhvQipTZEhYM0xaKjFSR1F0dEliMEE4djRZMnZHZFpKOVZ2Vk5ZZU5zRVBkTG9rNzlJWGZnemZaMk5Ga2hwems0TVd2V2M0Y2dWNmR1bzBQSzIzRldNWHJFaFJiTUV6bUdJZ3JjaGE0akU1KjFHNlpFb3hackxDdExmc1pXaWZoTEFOTklnPT0=">Click & Apply</a>
             </div>
             <div class="col">
-                <img class="qrCode" src="assests/QR_Code.png" alt="">
+                <img id="QrCode" src="assests/QR_Code.png" alt="">
             </div>
         </div>
     </div>
 
-
+    <!-- Footer -->
     <div class="container-fluid">
         <footer class="d-flex flex-wrap justify-content-between py-3 my-4 border-top">
             <p class="col-md-4 mb-0 text-muted">© Williams Fence Services, LLC</p>
