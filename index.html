@@ -2,243 +2,290 @@
 <html lang="en">
 
 <head>
-
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Williams Fence Services, LLC | Live Oak, FL Fence Contractor</title>
+    <meta name="description" content="Williams Fence Services builds durable residential and commercial fences in Live Oak, Florida. Privacy, chain-link, farm fencing, repairs, and financing options.">
+    <meta property="og:title" content="Williams Fence Services, LLC">
+    <meta property="og:description" content="Licensed and insured fence contractor in Live Oak, FL. Installations and repairs for homes, farms, and businesses.">
+    <meta property="og:url" content="https://www.williamsfenceservices.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assests/WilliamsFenceService_Logo_Blue.png">
+    <meta name="google-site-verification" content="5GddhUDK12DICtTbPBP9x-Fet1rQf0Eni3AUOR01keQ">
+    <link rel="icon" href="assests/WilliamsFenceService_Logo_Blue.ico" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Barlow', 'sans-serif'],
+                        display: ['Sora', 'sans-serif']
+                    },
+                    colors: {
+                        pine: {
+                            50: '#f2faf7',
+                            100: '#dbf2e9',
+                            300: '#7ccfae',
+                            500: '#2f8d66',
+                            700: '#1f5a42',
+                            900: '#123328'
+                        },
+                        earth: {
+                            50: '#f9f7f3',
+                            100: '#f1ece2',
+                            300: '#d2c2a2',
+                            700: '#5f5137',
+                            900: '#2f271a'
+                        }
+                    },
+                    boxShadow: {
+                        hero: '0 24px 60px -24px rgba(12, 25, 21, 0.75)'
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.min.css" rel="stylesheet">
+    <style>
+        :root {
+            color-scheme: only light;
+        }
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animate.css">
+        body {
+            background: radial-gradient(circle at 0% 0%, #f2faf7 0%, #f6f2e9 40%, #ffffff 100%);
+        }
 
-    <!-- Browser icon -->
-    <link rel="shortcut icon" href="assests/WilliamsFenceService_Logo_Blue.ico" sizes="16x16">
+        .reveal {
+            animation: rise 700ms ease-out both;
+        }
 
-    <title>Williams Fence Services, LLC</title>
+        .reveal-delay {
+            animation: rise 900ms ease-out both;
+        }
 
-    <meta name="google-site-verification" content="5GddhUDK12DICtTbPBP9x-Fet1rQf0Eni3AUOR01keQ" />
-    <meta property="og:title" content="Williams Fence Services, LLC" />
-    <meta property="og:url" content="https://www.williamsfenceservices.com" />
-    <meta name="description" content="Williams Fence Services located out of Live Oak Florida. We build privacy fences, chain link fences, property fences and also offer repair services.">
-    <meta name="description" content="Fence Building company in Florida">
-    <meta name="description" content="Fence Building company in Live Oak">
-    <meta name="description" content="Williams Fence Services Live Oak">
-    <meta name="description" content="Williams Fence Services Florida">
+        @keyframes rise {
+            from {
+                opacity: 0;
+                transform: translateY(14px);
+            }
 
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 
-<body>
-    <!-- Full Page Image Header with Vertically Centered Content -->
-    <header id="masthead">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
+<body class="text-earth-900">
+    <nav class="fixed top-0 z-50 w-full border-b border-white/30 bg-white/75 backdrop-blur-lg">
+        <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between px-4 py-3 lg:px-8">
+            <a href="#top" class="flex items-center gap-3">
+                <img src="assests/WilliamsFenceService_Logo.png" class="h-10" alt="Williams Fence Services logo">
+                <span class="font-display text-lg font-bold tracking-tight text-pine-900">Williams Fence Services</span>
+            </a>
+            <button data-collapse-toggle="main-nav" type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-pine-700/15 text-pine-900 lg:hidden" aria-controls="main-nav" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="h-5 w-5" fill="none" viewBox="0 0 17 14" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full lg:block lg:w-auto" id="main-nav">
+                <ul class="mt-4 flex flex-col gap-2 rounded-xl border border-pine-700/10 bg-white p-4 text-base font-semibold lg:mt-0 lg:flex-row lg:items-center lg:gap-8 lg:border-0 lg:bg-transparent lg:p-0">
+                    <li><a href="#services" class="text-earth-700 transition hover:text-pine-700">Services</a></li>
+                    <li><a href="#projects" class="text-earth-700 transition hover:text-pine-700">Projects</a></li>
+                    <li><a href="#financing" class="text-earth-700 transition hover:text-pine-700">Financing</a></li>
+                    <li><a href="#contact" class="text-earth-700 transition hover:text-pine-700">Contact</a></li>
+                    <li>
+                        <a href="tel:+13865900201" class="inline-flex items-center rounded-full bg-pine-700 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-pine-900">Call (386) 590-0201</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#gallery">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#financing">Financing</a>
-                        </li>
-                    </ul>
-                    <span class="navbar-text number ms-auto">
-                        <a class="text-decoration-none" href="tel:+13865900201">(386) 590-0201</a>
-                    </span>
+    <header id="top" class="relative overflow-hidden pt-20">
+        <img src="assests/header.jpeg" alt="Fence installation project" class="absolute inset-0 h-full w-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-r from-pine-900/90 via-pine-900/70 to-earth-900/55"></div>
+        <div class="relative mx-auto grid min-h-[82vh] max-w-7xl items-center px-4 py-14 lg:grid-cols-2 lg:gap-10 lg:px-8">
+            <div class="reveal max-w-xl text-white">
+                <p class="mb-4 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-1 text-sm font-semibold uppercase tracking-widest">Licensed and Insured</p>
+                <h1 class="font-display text-4xl font-extrabold leading-tight md:text-5xl lg:text-6xl">Fences that secure property and elevate curb appeal.</h1>
+                <p class="mt-6 text-lg text-white/90">From privacy builds to farm boundaries and repairs, we install dependable fencing designed for Florida weather and daily use.</p>
+                <div class="mt-8 flex flex-wrap gap-3">
+                    <a href="tel:+13865900201" class="rounded-full bg-white px-6 py-3 text-base font-bold text-pine-900 transition hover:bg-earth-100">Contact us for a quote today</a>
+                    <a href="#projects" class="rounded-full border border-white/40 px-6 py-3 text-base font-bold text-white transition hover:bg-white/10">See Recent Work</a>
                 </div>
             </div>
-        </nav>
 
-        <!-- Logo, Licensed & Insured, Contact Buttons -->
-        <div class="container h-100">
-            <div class="row h-100 align-items-st">
-                <div class="col-12 text-center">
-                    <!-- Logo -->
-                    <div class="container-fluid" id="Logo">
-                        <img src="assests/WilliamsFenceService_Logo.png" alt="..." class="mx-auto d-block">
-                    </div>
-                    <!-- Licensed & Insured -->
-                    <div class="container" id="Licensed-Insured">
-                        <div class="container-fluid">
-                            <h2 style="color: white">Licensed & Insured</h2>
-                            <h6 style="color: white;">Contact us today for a quote</h6>
-                        </div>
-                    </div>
-                    <!-- Contact Buttons -->
-                    <div id="AboutButtons">
-                        <a role="button" href="mailto:joeywilliams@williamsfenceservices.com" class=" btn btn-light btn-lg">Email</a>
-                        <a role="button" href="tel:+13865900201" class="btn btn-light btn-lg">Phone</a>
-                    </div>
+            <div class="reveal-delay mt-10 lg:mt-0">
+                <div class="rounded-2xl border border-white/20 bg-white/95 p-6 shadow-hero backdrop-blur">
+                    <h2 class="font-display text-2xl font-bold text-pine-900">Fence services in Live Oak, Florida</h2>
+                    <ul class="mt-5 space-y-4 text-base text-earth-700">
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-pine-100 text-pine-800">✓</span>
+                            Licensed and insured fencing contractor.
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-pine-100 text-pine-800">✓</span>
+                            Residential and commercial fence installation.
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-pine-100 text-pine-800">✓</span>
+                            Financing available with approved credit.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </header>
 
-
-    <!-- About Williams Fence Services -->
-    <div class="container-fluid Margin">
-        <h1 class="text-uppercase">About</h1>
-        <div class="row" id="About">
-            <div class="col-md-6" id="aboutImg">
-                <img src="assests/AboutImage.JPG" class="img-fluid" alt="Responsive image">
+    <main>
+        <section class="mx-auto -mt-10 max-w-7xl px-4 lg:px-8">
+            <div class="rounded-2xl bg-white/90 p-6 shadow-xl backdrop-blur">
+                <p class="mx-auto max-w-4xl text-center text-base text-earth-800 md:text-lg">
+                    Williams Fence Services is located in Live Oak, FL. We build high-quality privacy, chain-link, and property fences, and we also offer repair services.
+                </p>
             </div>
-            <div class="col-md-6" id="description">
-                <h4>Williams Fence Services is located in Live Oak, FL. We specialize in providing high-quality fences for residential and commercial properties, including privacy, chain-link, and property fences. Whether you need a new fence installed or an old one repaired Williams Fence Services is the way to go for all your fencing needs.</h4>
-                <!-- Contact Buttons -->
-                <div class="Contact text-center">
-                    <p>Contact us today!</p>
-                    <a role="button" href="mailto:joeywilliams@williamsfenceservices.com" class=" btn btn-light btn-lg">Email</a>
-                    <a role="button" href="tel:+13865900201" class="btn btn-light btn-lg">Phone</a>
+        </section>
+
+        <section id="services" class="mx-auto max-w-7xl px-4 py-20 lg:px-8">
+            <div class="mb-10 flex flex-wrap items-end justify-between gap-4">
+                <div>
+                    <p class="text-sm font-bold uppercase tracking-[0.25em] text-pine-700">Our Services</p>
+                    <h2 class="mt-2 font-display text-3xl font-bold text-earth-900 md:text-4xl">Built for homes, farms, and commercial properties</h2>
+                </div>
+                <a href="tel:+13865900201" class="rounded-full border border-pine-700 px-5 py-2.5 text-sm font-bold text-pine-800 transition hover:bg-pine-700 hover:text-white">Schedule Estimate</a>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+                <article class="rounded-2xl border border-earth-100 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <img src="assests/grid/privaceFence.jpeg" alt="Wood privacy fence" class="h-52 w-full rounded-xl object-cover">
+                    <h3 class="mt-4 font-display text-xl font-bold">Privacy Fencing</h3>
+                    <p class="mt-2 text-earth-700">Durable privacy fences for backyards, pools, and property lines with a clean finished look.</p>
+                </article>
+                <article class="rounded-2xl border border-earth-100 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <img src="assests/grid/chainLinkFence.jpeg" alt="Chain-link fence installation" class="h-52 w-full rounded-xl object-cover">
+                    <h3 class="mt-4 font-display text-xl font-bold">Chain-Link</h3>
+                    <p class="mt-2 text-earth-700">Cost-effective security for homes and businesses with options for height and access gates.</p>
+                </article>
+                <article class="rounded-2xl border border-earth-100 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <img src="assests/grid/barbWireFence.jpeg" alt="Farm and property fencing" class="h-52 w-full rounded-xl object-cover">
+                    <h3 class="mt-4 font-display text-xl font-bold">Property & Farm</h3>
+                    <p class="mt-2 text-earth-700">Reliable perimeter solutions for acreage, livestock control, and long property boundaries.</p>
+                </article>
+                <article class="rounded-2xl border border-earth-100 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <img src="assests/grid/repairFence.jpeg" alt="Fence repair service" class="h-52 w-full rounded-xl object-cover">
+                    <h3 class="mt-4 font-display text-xl font-bold">Fence Repairs</h3>
+                    <p class="mt-2 text-earth-700">Fast repairs for damaged panels, leaning posts, and storm-related issues.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="bg-earth-50/60 py-20">
+            <div class="mx-auto max-w-7xl px-4 lg:px-8">
+                <div class="mb-10">
+                    <p class="text-sm font-bold uppercase tracking-[0.25em] text-pine-700">Project Gallery</p>
+                    <h2 class="mt-2 font-display text-3xl font-bold text-earth-900 md:text-4xl">Recent fence installations</h2>
                 </div>
 
+                <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+                    <img src="assests/carousel/image3.jpeg" class="h-56 w-full rounded-xl object-cover md:h-64" alt="Fence project 1">
+                    <img src="assests/carousel/image2.jpeg" class="h-56 w-full rounded-xl object-cover md:h-64" alt="Fence project 2">
+                    <img src="assests/carousel/image4.jpeg" class="h-56 w-full rounded-xl object-cover md:h-64" alt="Fence project 3">
+                    <img src="assests/carousel/image1.jpeg" class="h-56 w-full rounded-xl object-cover md:h-64" alt="Fence project 4">
+                    <img src="assests/carousel/image5.jpeg" class="h-56 w-full rounded-xl object-cover md:h-64" alt="Fence project 5">
+                    <img src="assests/carousel/image6.jpeg" class="h-56 w-full rounded-xl object-cover md:h-64" alt="Fence project 6">
+                    <img src="assests/carousel/image7.jpeg" class="h-56 w-full rounded-xl object-cover md:h-64" alt="Fence project 7">
+                    <img src="assests/carousel/image8.jpeg" class="h-56 w-full rounded-xl object-cover md:h-64" alt="Fence project 8">
+                </div>
+
+                <div id="default-carousel" class="relative mt-8 w-full" data-carousel="slide">
+                    <div class="relative h-72 overflow-hidden rounded-2xl md:h-96">
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="assests/carousel/image9.jpeg" class="absolute left-1/2 top-1/2 block h-full w-full -translate-x-1/2 -translate-y-1/2 object-cover" alt="Fence showcase image 9">
+                        </div>
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                            <img src="assests/carousel/image10.jpeg" class="absolute left-1/2 top-1/2 block h-full w-full -translate-x-1/2 -translate-y-1/2 object-cover" alt="Fence showcase image 10">
+                        </div>
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="assests/carousel/image11.jpeg" class="absolute left-1/2 top-1/2 block h-full w-full -translate-x-1/2 -translate-y-1/2 object-cover" alt="Fence showcase image 11">
+                        </div>
+                    </div>
+                    <button type="button" class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none" data-carousel-prev>
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/80 text-pine-900 shadow-lg transition group-hover:bg-white">
+                            <svg class="h-4 w-4" fill="none" viewBox="0 0 6 10" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M5 1 1 5l4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button type="button" class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none" data-carousel-next>
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/80 text-pine-900 shadow-lg transition group-hover:bg-white">
+                            <svg class="h-4 w-4" fill="none" viewBox="0 0 6 10" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="m1 9 4-4-4-4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
             </div>
+        </section>
+
+        <section id="financing" class="mx-auto max-w-7xl px-4 py-20 lg:px-8">
+            <div class="grid gap-8 rounded-3xl bg-gradient-to-r from-pine-900 to-pine-700 p-8 text-white shadow-2xl lg:grid-cols-[1.2fr,0.8fr] lg:p-12">
+                <div>
+                    <p class="text-sm font-bold uppercase tracking-[0.25em] text-pine-100">Flexible Financing</p>
+                    <h2 class="mt-3 font-display text-3xl font-bold md:text-4xl">Start your fence project now and pay over time</h2>
+                    <p class="mt-4 max-w-xl text-lg text-pine-50">We offer financing options with approved credit so you can secure your property without waiting.</p>
+                    <a href="https://launchcumerchant.merchantlinq.com/QWVCdVRDb1FNaE43Z1RYT0lYUnhvQipTZEhYM0xaKjFSR1F0dEliMEE4djRZMnZHZFpKOVZ2Vk5ZZU5zRVBkTG9rNzlJWGZnemZaMk5Ga2hwems0TVd2V2M0Y2dWNmR1bzBQSzIzRldNWHJFaFJiTUV6bUdJZ3JjaGE0akU1KjFHNlpFb3hackxDdExmc1pXaWZoTEFOTklnPT0=" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex rounded-full bg-white px-6 py-3 text-base font-bold text-pine-900 transition hover:bg-earth-100">Apply for Financing</a>
+                </div>
+                <div class="rounded-2xl bg-white p-4 text-center text-earth-900">
+                    <p class="text-sm font-bold uppercase tracking-widest text-earth-700">Scan to Apply</p>
+                    <img src="assests/QR_Code.png" alt="Financing QR code" class="mx-auto mt-4 h-64 w-64 rounded-xl object-contain">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="border-t border-earth-100 bg-white py-20">
+            <div class="mx-auto max-w-7xl px-4 lg:px-8">
+                <div class="grid gap-8 lg:grid-cols-2">
+                    <div>
+                        <p class="text-sm font-bold uppercase tracking-[0.25em] text-pine-700">Contact</p>
+                        <h2 class="mt-2 font-display text-3xl font-bold text-earth-900 md:text-4xl">Ready for your quote?</h2>
+                        <p class="mt-4 text-lg text-earth-700">Tell us about your fence project and contact us for an estimate.</p>
+                        <div class="mt-8 space-y-3 text-lg text-earth-800">
+                            <p><span class="font-bold">Phone:</span> <a class="text-pine-700 underline decoration-pine-300 underline-offset-4" href="tel:+13865900201">(386) 590-0201</a></p>
+                            <p><span class="font-bold">Email:</span> <a class="text-pine-700 underline decoration-pine-300 underline-offset-4" href="mailto:joeywilliams@williamsfenceservices.com">joeywilliams@williamsfenceservices.com</a></p>
+                            <p><span class="font-bold">Location:</span> Live Oak, Florida</p>
+                        </div>
+                        <a href="https://m.facebook.com/willams42" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center gap-2 rounded-full bg-earth-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-earth-700">
+                            <svg class="h-4 w-4" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M16 8.049C16 3.603 12.418 0 8 0S0 3.603 0 8.049c0 4.017 2.926 7.347 6.75 7.951V10.38H4.719V8.049H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.01c-.992 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951Z"></path>
+                            </svg>
+                            Follow on Facebook
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-earth-100 bg-earth-50 py-6">
+        <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 text-sm text-earth-700 md:flex-row lg:px-8">
+            <p>© <span id="year"></span> Williams Fence Services, LLC. All rights reserved.</p>
+            <p>Privacy, chain-link, property fences, and repairs.</p>
         </div>
-    </div>
+    </footer>
 
-    <!-- List of services -->
-    <div class="container-fluid animated fadeIn Margin">
-        <h1 class="text-uppercase">Services</h1>
-        <div class="row rgx-4 gy-4">
-            <div class="col-lg imgContainerServices">
-                <img src="assests/grid/privaceFence.jpeg" class="img ImageServices" alt="Privacy fences">
-                <!-- <div class="middle">
-                    <div class="hoverText">Click for more images!</div>
-                </div> -->
-                <div class="Caption" align="center">
-                    Privacy
-                </div>
-            </div>
-            <div class="col-lg imgContainerServices">
-                <img src="assests/grid/chainLinkFence.jpeg" class="img ImageServices" alt="Chain link fences">
-                <!-- <div class="middle">
-                    <div class="hoverText">Click for more images!</div>
-                </div> -->
-                <div class="Caption" align="center">
-                    Chain-link
-                </div>
-            </div>
-            <div class="col-lg imgContainerServices">
-                <img src="assests/grid/barbWireFence.jpeg" class="img ImageServices" alt="Property fences">
-                <!-- <div class="middle">
-                    <div class="hoverText">Click for more images!</div>
-                </div> -->
-                <div class="Caption" align="center">
-                    Property
-                </div>
-            </div>
-            <div class="col-lg imgContainerServices">
-                <img src="assests/grid/repairFence.jpeg" class="img ImageServices" alt="Repair Services">
-                <!-- <div class="middle">
-                    <div class="hoverText">Click for more images!</div>
-                </div> -->
-                <div class="Caption" align="center">
-                    Repair Services
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Picture slides -->
-    <div class="container-fluid animated fadeInUpBig" id="gallery">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assests/carousel/image3.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image2.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image4.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image1.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image5.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image6.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image7.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image8.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image9.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image10.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/carousel/image11.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Financing QR Code -->
-    <div class="container-fluid text-center Margin">
-        <div class="row align-items-center">
-            <div class="col">
-                <h1>Financing Available</h1>
-                <h2>With Approved Credit</h2>
-                <a role="button" class="btn btn-dark" href="https://launchcumerchant.merchantlinq.com/QWVCdVRDb1FNaE43Z1RYT0lYUnhvQipTZEhYM0xaKjFSR1F0dEliMEE4djRZMnZHZFpKOVZ2Vk5ZZU5zRVBkTG9rNzlJWGZnemZaMk5Ga2hwems0TVd2V2M0Y2dWNmR1bzBQSzIzRldNWHJFaFJiTUV6bUdJZ3JjaGE0akU1KjFHNlpFb3hackxDdExmc1pXaWZoTEFOTklnPT0=">Click & Apply</a>
-            </div>
-            <div class="col">
-                <img id="QrCode" src="assests/QR_Code.png" alt="">
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="container-fluid">
-        <footer class="d-flex flex-wrap justify-content-between py-3 my-4 border-top">
-            <p class="col-md-4 mb-0 text-muted">© Williams Fence Services, LLC</p>
-
-            <a class="text-decoration-none text-muted" href="tel:+13865900201">(386) 590-0201</a>
-            <div class="container text-center" id="facebook">
-                <a type="button" class="btn btn-primary" href="https://m.facebook.com/willams42">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
-                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
-                        </path>
-                    </svg>
-                </a>
-            </div>
-        </footer>
-    </div>
-
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.min.js"></script>
 </body>
 
 </html>
